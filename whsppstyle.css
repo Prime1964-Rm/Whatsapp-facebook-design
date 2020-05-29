@@ -1,0 +1,448 @@
+*{
+    margin:0;
+}
+body{
+    background-color: ;
+}
+
+#wheader{
+    position: absolute;
+    background-color:#075e54;
+    height:130px;
+    width:400px;
+    top:130px;
+    margin-left: 500px;
+   
+}
+#searchead{
+    position: absolute;
+    background-color:white;
+    height:60px;
+    width:400px;
+    top:130px;
+    margin-left: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+#wchtlist{
+    position:absolute;
+    background-color: white;
+    height:550px;
+    width:400px;
+    margin-left: 500px;
+    top:265px;
+    
+}
+#statuslist{
+    position: absolute;
+    background-color: white;
+    height:550px;
+    width:400px;
+    top:265px;
+    margin-left:500px;
+}
+#callist{
+     position: absolute;
+    background-color: white;
+    height:550px;
+    width:400px;
+    top:265px;
+    margin-left: 500px;
+}
+#cameracl{
+    position:absolute;
+    width: 400px;
+    height: 690px;
+    background-color: black;
+    top:130px;
+    left:500px;
+}
+
+    h1{ padding-left:19px;
+    padding-top:20px; 
+    font-size: 27px;
+    font-family: calibri;
+    font-weight: 600;
+    letter-spacing: normal;
+    color:white;
+    width:120px;
+}
+
+
+#woptions{
+    list-style-type: none;
+}
+
+.wop{
+    position: relative;
+    display:block;
+    float:left;
+    font-family: helvetica;
+    left:30px;
+    top:42px;
+}
+
+
+.clist{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.clist:hover{
+    background-color:#075e54;
+    opacity:0.8 ;
+    border-bottom: 2px;
+    border-bottom-color: red;
+}
+#camera{
+    position: absolute;
+    top:80px;
+    right: 335px;
+    height: 30px;
+    width:32px;
+    padding: 10px;
+}
+#camera:hover{
+    background-color: #3f7a73;
+    
+}
+#options{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    bottom:88px;
+    left:350px;
+    padding:10px;
+    top:10px;
+}
+#options:hover{
+     border-radius:100%;
+    background-color: #3f7a73;
+}
+#magnify{
+    position: absolute;
+    width:26px;
+    height: 26px;
+    bottom:88px;
+    left:300px;
+    padding: 10px;
+    top:10px;
+}
+#magnify:hover{
+    border-radius:100%;
+    background-color: #3f7a73;
+}
+#chtlist{
+    list-style-type: none;
+}
+
+#box1{
+      
+    position: relative;
+    width:100%;
+    height:86px;
+}
+#box2{
+    
+    width:100%;
+    height:91px;
+    position:relative;
+}
+
+#box3{
+    
+    width:100%;
+    height:91px;
+    position:relative;
+}
+#box4{
+    
+    width:100%;
+    height:91px;
+    position:relative;
+}
+#box5{
+    background-color: white;
+     width:100%;
+    height:91px;
+}
+.chtimg{
+    width:60px;
+    position:relative;  
+    border-radius:100px;
+    top:17px;
+    left:17px;
+}
+.chat{
+    position:relative;
+    left:35px;
+    bottom:
+    font-size:18px;
+    font-family: helvetica;
+    font-weight: ;
+    color:gray;
+}
+#chtime1{
+    position: relative;
+    bottom: 38px;
+    left:227px;
+    font-family: calibri;
+    color:grey;
+}
+#chtime2{
+    position: relative;
+    bottom:38px;
+    left:260px;
+    font-family: calibri;
+    color:grey;
+}
+#chtime3{
+    position: relative;
+    bottom: 38px;
+    left:125px;
+    font-family: calibri;
+    color:grey;
+}
+#chtime4{
+    position: relative;
+    bottom: 38px;
+    left:45px;
+    font-family: calibri;
+    color:grey;
+}
+#chtime5{
+    position: relative;
+    bottom: 38px;
+    left:85px;
+    font-family: calibri;
+    color:grey;
+}
+#chtime6{
+    position: relative;
+    bottom: 38px;
+    left:65px;
+    font-family: calibri;
+    color:grey;
+}
+.tick{
+    position: relative;
+    width: 22px;
+    height: 22px;
+}
+.name{
+    position: relative;
+    bottom: 24px;
+    font-size: 24px;
+    font-family: calibri;
+    font-weight: bold;
+}
+hr{
+    position: relative;
+    width:305px;
+    margin-left: 95px;
+    color: #c6cad1;
+    border: 0.5px solid;   
+ }
+#l1{
+    top:21px;
+    
+}
+#l2{
+    top:27px;
+}
+#l3{
+    top:23px;
+}
+#l3al{
+    top:24px;
+}
+#l4{
+    top: -5px;
+}
+#l5{
+    margin:0px;
+    width: 100%;
+    top: -1px;
+    
+}
+#l6{
+    margin-left: 0px;
+    margin-top:63px;
+    width: 398px;
+    bottom: 5px;
+    border-color: #c6cad1;
+}
+#box1:hover{
+    background-color: #e1e4e8;
+    cursor: pointer;
+}
+#box2:hover{
+    background-color: #e1e4e8;
+    cursor: pointer;
+}
+#box3:hover{
+    background-color: #e1e4e8;
+    cursor: pointer;
+}
+#box4:hover{
+    background-color: #e1e4e8;
+    cursor: pointer;
+}
+#box5:hover{
+    background-color: #e1e4e8;
+    cursor: pointer;
+}
+#box6:hover{
+    background-color: #e1e4e8;
+    cursor: pointer;
+}
+#mystatus{
+    background-color:white;
+     width:100%;
+    height:91px;
+}
+#view1{
+     position: relative;
+    width:100%;
+    height:86px;
+    background-color: white;
+}
+#view2{ position: relative;
+    width:100%;
+    height:86px;
+    background-color:white;
+    top:2px;
+    
+}
+.calltype{
+    position: relative;
+    width: 15px;
+    height: 15px;
+}
+#camclick{
+    position: relative;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border-style: 1px solid white;
+    left: 160px;
+    top:536px;
+}
+#camclick:hover{
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    border-style: 1px solid white;
+    outline-style: 1px solid white;
+     left: 145px;
+    top:526px;
+
+}
+#bolt{
+    width:30px;
+    position: absolute;
+    top:550px;
+    left:60px;
+    border-radius: 100%;
+    padding:4px;
+}
+#bolt:hover{
+    background-color: #444444;
+    opacity:0.9px;
+    
+}
+#rotcam{
+    width:30px;
+    position: absolute;
+    top:550px;
+    left:280px;
+     padding:6px;
+    border-radius: 100%;
+}
+#rotcam:hover{
+     background-color:#444444;
+    opacity:0.9px;
+}
+#camtag{
+    color: white;
+    font-family: calibri;
+    position: absolute;
+    top:620px;
+    left: 100px;
+}
+#back{
+    position: absolute;
+    width:30px;
+    padding: 10px;
+    top:5px;
+    left:5px;
+}
+#searchbox{
+    position:absolute;
+    left:60px;
+    width:340;
+    height: 60px;
+    font-size: 20px;
+    border-style: none;
+    box-shadow: 20px solid black;
+}
+#drop{
+    background-color: white;
+    width: 250px;
+    height: 290px;
+    text-align: left;
+    position: absolute;
+    top:135px;
+    left:645px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#droplist{
+    position:absolute;
+    list-style-type: none;
+    color: black;
+    font-family: calibri;
+}
+
+.dropcont{
+    font-size: 23px;
+    line-height: 2.5;
+    padding-left:25px;
+    
+}
+.contline{
+    position: relative;
+    width: 250px;
+    left:-40px;
+}
+.contline:hover{
+    background-color: #e1e4e8;
+    cursor: pointer;
+}
+#camback{
+    position: absolute;
+    width:40px;
+    padding: 15px;
+}
+#camback:hover{
+     background-color: #444444;
+    opacity:0.5px;
+}
+#whaspp{
+    position: absolute;
+    left:500px;
+    background-color: white;
+    width:400px;
+    height:660px;
+    top:155px;
+}
+#phone{
+    position: absolute;
+    width:442px;
+    left:479px;
+    top:40px;
+    height:863px;
+}
